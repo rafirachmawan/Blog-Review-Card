@@ -1,162 +1,159 @@
 body {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Figtree';
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Figtree";
 }
 
 /* Import Outfit-VariableFont */
 @font-face {
-    font-family: 'Figtree';
-    src: url('assets/fonts/Figtree-VariableFont_wght.ttf') format('woff');
+  font-family: "Figtree";
+  src: url("assets/fonts/Figtree-VariableFont_wght.ttf") format("woff");
 }
 
 main {
-    background-color: hsl(47, 88%, 63%);
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    perspective: 1000px;
+  background-color: hsl(47, 88%, 63%);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  perspective: 1000px;
 }
 
 h4 {
-    font-size: 13px;
-    font-weight: 800;
+  font-size: 13px;
+  font-weight: 800;
 }
 
 .container {
-    width: 77vw;
-    position: relative;
-    background-color: #000;
-    border-radius: 15px;
+  width: 77vw;
+  position: relative;
+  background-color: #000;
+  border-radius: 15px;
 }
 
 .wrapper {
-    background-color: hsl(0, 0%, 100%);
-    width: 88%;
-    position: relative;
-    border-radius: 15px;
-    left: -5px;
-    bottom: 5px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-    border: 1px solid #000;
-    padding: 17px;
-
+  background-color: hsl(0, 0%, 100%);
+  width: 88%;
+  position: relative;
+  border-radius: 15px;
+  left: -5px;
+  bottom: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid #000;
+  padding: 17px;
 }
 
 .wrapper picture img {
-    max-width: 100%;
-    border-radius: 10px;
+  max-width: 100%;
+  border-radius: 10px;
 }
 
 .mini-box {
-    background-color: hsl(47, 88%, 63%);
-    font-size: 11px;
-    font-weight: 800;
-    width: 4em;
-    padding: 6px 10px;
-    border-radius: 5px;
+  background-color: hsl(47, 88%, 63%);
+  font-size: 11px;
+  font-weight: 800;
+  width: 4em;
+  padding: 6px 10px;
+  border-radius: 5px;
 }
 
 .wrapper span {
-    font-size: 11px;
-    font-weight: 700;
+  font-size: 11px;
+  font-weight: 700;
 }
 
 .wrapper h1 {
-    font-size: 17px;
-    font-weight: 800;
-    padding-top: 10px;
+  font-size: 17px;
+  font-weight: 800;
+  padding-top: 10px;
 }
 
 .wrapper .link {
-    color: #000;
-    text-decoration: none;
+  color: #000;
+  text-decoration: none;
 }
 
 .wrapper .link:hover {
-    color: hsl(47, 88%, 63%);
+  color: hsl(47, 88%, 63%);
 }
 
 .wrapper p {
-    font-size: 13px;
-    font-weight: 300;
-    padding-top: 5px;
+  font-size: 13px;
+  font-weight: 300;
+  padding-top: 5px;
 }
 
 .wrapper .max-box {
-    max-width: 100%;
-    display: flex;
-    flex-direction: row;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
 }
 
 .wrapper .profile-pic {
-    width: 2em;
-    height: 2em;
-    padding-top: 10px;
-    margin-right: 12px;
+  width: 2em;
+  height: 2em;
+  padding-top: 10px;
+  margin-right: 12px;
 }
 
-.attribution { 
-    font-family: 'Figtree';
-    font-size: 11px; 
-    text-align: center; 
-    margin-top: 15px;
+.attribution {
+  font-family: "Figtree";
+  font-size: 11px;
+  text-align: center;
+  margin-top: 15px;
 }
 
 .attribution a {
-     color: hsl(228, 45%, 44%); 
+  color: hsl(228, 45%, 44%);
 }
-
 
 /* MEDIA QUERIES FOR RESPONSIVENESS */
 
-
 @media (min-width: 1024px) {
-    .container {
-        max-width: 23.5vw;
-    }
-    .wrapper {
-        width: 20.5vw;
-    }
+  .container {
+    max-width: 23.5vw;
+  }
+  .wrapper {
+    width: 20.5vw;
+  }
 }
 
 @media (min-width: 500px) and (max-width: 539px) {
-    .container {
-        max-width: 53.8vw;
-    }
-    .wrapper {
-        width: 47vw;
-    }
+  .container {
+    max-width: 53.8vw;
+  }
+  .wrapper {
+    width: 47vw;
+  }
 }
 
 @media (min-width: 540px) and (max-width: 679px) {
-    .container {
-        max-width: 54vw;
-    }
-    .wrapper {
-        width: 33w;
-    }
+  .container {
+    max-width: 54vw;
+  }
+  .wrapper {
+    width: 33w;
+  }
 }
 
 @media (min-width: 680px) and (max-width: 800px) {
-    .container {
-        max-width: 43vw;
-    }
-    .wrapper {
-        width: 33w;
-    }
+  .container {
+    max-width: 43vw;
+  }
+  .wrapper {
+    width: 33w;
+  }
 }
 
 @media (min-width: 800px) and (max-width: 1023px) {
-    .container {
-        max-width: 34vw;
-    }
-    .wrapper {
-        width: 28w;
-    }
+  .container {
+    max-width: 34vw;
+  }
+  .wrapper {
+    width: 28w;
+  }
 }
